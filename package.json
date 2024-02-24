@@ -13,7 +13,10 @@
   "dependencies": {
     "node_characterai": "latest",
     "express": "^4.17.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "puppeteer": "^13.0.1",
+    "puppeteer-extra": "^5.0.0",
+    "puppeteer-extra-plugin-stealth": "^2.0.0"
     
   }
 }
