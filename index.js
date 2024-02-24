@@ -17,7 +17,7 @@ const characterAI = new CharacterAI({
 
 app.use(express.json());
 
-app.get('/get-output', async (req, res) => {
+app.get('/cai', async (req, res) => {
     const characterId = req.query.characterid || 'Uskj6m3pjr0Q-91CQvSzXGJPIfaWvtMwQigp54VnQZw';
     const userMessage = req.query.message || '';
 
