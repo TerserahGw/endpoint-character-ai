@@ -1,24 +1,15 @@
 {
-  "name": "endpoint-character-ai",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Endpoint for Character-AI",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "test": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IndraTensei/endpoint-character-ai.git"
-  },
-  "keywords": [
-    "character-ai"
-  ],
-  "author": "IndraTensei",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IndraTensei/endpoint-character-ai/issues"
-  },
-  "homepage": "https://github.com/IndraTensei/endpoint-character-ai#readme",
   "dependencies": {
     "node_characterai": "latest",
     "express": "^4.17.1",
