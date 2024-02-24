@@ -1,6 +1,6 @@
-const express = require('express');
-const CharacterAI = require('node_characterai');
-const dotenv = require('dotenv'); // Import the dotenv package
+import express from 'express';
+import CharacterAI from 'node_characterai'
+import dotenv from 'dotenv'; // Import the dotenv package
 
 dotenv.config(); // Load environment variables from .env file
 
